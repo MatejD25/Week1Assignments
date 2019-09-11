@@ -14,6 +14,7 @@ public class PizzaCost {
         sizecost = size*0.5;
         totalcost = basecost+toppcost+sizecost;
         System.out.format("Your Pizza Will Cost $%.2f \n",totalcost);
+        System.out.println("Thank You For Shopping At Dominoes");
     }
     
 }
