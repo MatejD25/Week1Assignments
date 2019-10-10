@@ -10,9 +10,13 @@ public class PenBar {
         p.setColor(c);
         p.setWidth(50);
         p.up();
-        p.move(-285,yloc);
+        
+        p.move(-335,yloc);
         p.setDirection(0);
         p.down();
         p.move(size);
+        p.up();
+        p.move(40);
+        p.drawString("Value: "+size);
 }
 }
